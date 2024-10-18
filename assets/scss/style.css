@@ -1,0 +1,382 @@
+#digital {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  display: flex;
+  border: 2px solid red;
+}
+#digital .boxes {
+  width: 100%;
+  height: 100%;
+}
+#digital .boxes .top-text {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+#digital .boxes .top-text img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  position: relative;
+}
+#digital .boxes .top-text h1 {
+  position: absolute;
+  font-size: 52px;
+  line-height: 64px;
+  color: white;
+  width: 60%;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#digital .boxes .top-text p {
+  font-weight: 400;
+  color: #636363;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#digital .boxes .top-text p span {
+  font-weight: 600;
+}
+
+#agency {
+  width: 90%;
+  margin: 30px auto;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid blue;
+  justify-content: center;
+  gap: 20px;
+}
+#agency .big-box {
+  width: 40%;
+  position: relative;
+}
+#agency .big-box img {
+  width: 100%;
+}
+#agency .yellow-box {
+  width: 50%;
+  margin: 15px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#agency .yellow-box h2 {
+  color: #FFF212;
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+#agency .yellow-box p {
+  font-weight: 400;
+  color: #636363;
+  font-size: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#agency .yellow-box p span {
+  font-weight: 600;
+  color: #636363;
+  font-size: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#mehsul .top-text {
+  margin: 30px 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 4px;
+  border: 2px solid rgb(179, 24, 135);
+}
+#mehsul .top-text h1 {
+  font-size: 3.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  margin: 2rem;
+}
+#mehsul .top-text h1::after {
+  content: "";
+  background-color: #FFF212;
+  height: 2px;
+  width: 350px;
+  position: absolute;
+  bottom: -540px;
+  left: 38%;
+}
+
+#third {
+  position: relative;
+}
+#third .boxes {
+  width: 90%;
+  margin: 20px;
+}
+
+#main .top-text {
+  margin: 30px 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 4px;
+  border: 2px solid rgb(179, 24, 135);
+}
+#main .top-text h1 {
+  font-size: 3.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  margin: 2rem;
+}
+#main .top-text h1::before {
+  content: "";
+  background-color: #FFF212;
+  height: 2px;
+  width: 580px;
+  position: absolute;
+  bottom: -1010px;
+  left: 31%;
+}
+
+#box {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+#box .boxes {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+}
+#box .boxes .aa {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+}
+#box .boxes .aa .bb {
+  width: 20%;
+  margin-right: 30px;
+  height: 400px;
+}
+#box .boxes .aa .bb img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#last {
+  width: 90%;
+  margin: auto;
+}
+#last .boxes .left-box {
+  gap: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 50%;
+  border: #3dd02c 2px solid;
+}
+#last .boxes .left-box .top {
+  width: 40%;
+  margin-bottom: 10px;
+}
+#last .boxes .left-box .top img {
+  width: 100%;
+  vertical-align: middle;
+}
+#last .boxes .left-box .top p {
+  font-size: 18px;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #413E3E;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#last .boxes .left-box .bottom {
+  width: 25%;
+  margin-left: -20px;
+}
+#last .boxes .left-box .bottom h4 {
+  color: #EC268F;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+#last .boxes .left-box .bottom .links ul {
+  list-style-type: none;
+}
+#last .boxes .left-box .bottom .links ul li {
+  margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
+}
+#last .boxes .left-box .bottom .links ul li a {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 4px 20px 4px 0;
+  border-radius: 10px;
+}
+#last .boxes .left-box .bottom .links ul li a:hover {
+  left: 10px;
+  color: #666565;
+  background-color: #FFF212;
+}
+#last .boxes .left-box .bottom .links ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+#last .boxes .right-box {
+  margin-bottom: 20px;
+  display: flex;
+  width: 50%;
+  border: blue 2px solid;
+}
+#last .boxes .right-box .top {
+  width: 40%;
+}
+#last .boxes .right-box .top h4 {
+  color: #EC268F;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+#last .boxes .right-box .top .links .top-box {
+  margin-bottom: 10px;
+}
+#last .boxes .right-box .top .links .top-box a i {
+  font-size: 24px;
+  color: #FFF212;
+}
+#last .boxes .right-box .top .links .top-box h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+  font-weight: 500;
+  text-decoration: none;
+}
+#last .boxes .right-box .top .links .bottom-box {
+  margin-bottom: 10px;
+}
+#last .boxes .right-box .top .links .bottom-box a i {
+  font-size: 24px;
+  color: #FFF212;
+}
+#last .boxes .right-box .top .links .bottom-box h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+  font-weight: 500;
+  text-decoration: none;
+}
+#last .boxes .right-box .bottom {
+  width: 40%;
+  border: #b37f17 2px solid;
+}
+#last .boxes .right-box .bottom h4 {
+  color: #EC268F;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  border: #b3177c 2px solid;
+}
+#last .boxes .right-box .bottom .links {
+  border: #1724b3 2px solid;
+}
+#last .boxes .right-box .bottom .links .top-box {
+  margin-bottom: 10px;
+  padding: 0px 68px;
+  right: 160px;
+  border: #b31717 2px solid;
+}
+#last .boxes .right-box .bottom .links .top-box a {
+  border: #17b36f 2px solid;
+}
+#last .boxes .right-box .bottom .links .top-box a i {
+  font-size: 24px;
+  color: #FFF212;
+  right: 20px;
+  left: 50px;
+}
+#last .boxes .right-box .bottom .links .top-box h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+  font-weight: 500;
+  text-decoration: none;
+  border: #b37f17 2px solid;
+}
+
+#header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  position: relative;
+}
+#header a {
+  color: black;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#header .logo {
+  width: 20%;
+}
+#header .logo a {
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+#header .logo a img {
+  width: 100%;
+}
+#header ul li a {
+  padding: 28px 20px;
+  margin: 10px auto;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  color: #353535;
+  position: relative;
+}
+#header ul li a:hover::before {
+  width: 65%;
+}
+#header ul li a::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+  width: 0%;
+  transition: 0.3s;
+  height: 2px;
+  background-color: #FFF212;
+}
+#header ul li a:last-child a::before {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
